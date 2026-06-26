@@ -1,6 +1,8 @@
 # Portable-Isolated-UPS
 SYSTEM ARCHITECTURE SPECIFICATION: Portable Isolated UPS Inverter
 
+<img width="6458" height="3246" alt="UPS blank diagram" src="https://github.com/user-attachments/assets/c01bc9ce-c7ee-43dd-96e4-245b793749e0" />
+
 1. PROJECT OVERVIEW
 - System topology: Portable isolated inverter with full input and output galvanic barrier (Transformer-Coupled Isolation).
 - Output power: Maximum 100W.
