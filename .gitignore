@@ -1,0 +1,49 @@
+# ========================================
+# Altium Designer .gitignore
+# ========================================
+
+# 1. Foldery generowane przez Altium (Kopie zapasowe i podglądy)
+History/
+__Previews/
+
+# 2. Pliki wyjściowe i produkcyjne (Generowane przez OutJob)
+Project Outputs*/
+ProjectOutputs/
+Outputs/
+*.cam
+*.gbr
+*.drl
+*.g*
+*.xln
+*.txt
+*.csv
+*.xls
+*.xlsx
+
+# 3. Logi, raporty kompilacji i błędy
+*.log
+*.htm
+*.html
+*.REP
+*.DRC
+*.ERC
+*.err
+
+# 4. Pliki powiązane z Twoim zrzutem ekranu (Pliki generowane tymczasowo lub automatycznie)
+*.NET                 # Netlisty (np. PCB_12V.NET)
+*.PrjPcbStructure     # Drzewo struktury projektu (tworzone lokalnie podczas otwarcia projektu)
+*.zip                 # Archiwa i kopie zapasowe (np. te generowane przez Project Packager)
+*.rar
+
+# 5. Pliki PDF generowane ze schematów/PCB
+# Zauważyłem na zrzucie pliki *.pdf. Najlepiej ich nie śledzić, 
+# ponieważ są to pliki binarne, które zmieniają się przy każdej drobnej edycji.
+*.pdf
+
+# 6. Pliki tymczasowe (Lock files tworzone gdy projekt jest otwarty w Altium)
+~$*
+~*.*
+
+# 7. Opcjonalnie: Ignorowanie plików lokalnych ustawień użytkownika (Workspace)
+*.DsnWrk
+*.PrjPcb.Saved
